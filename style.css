@@ -764,6 +764,8 @@ svg:hover{
     .primerDiv--texto{
         width: auto;
         text-align: center;
+        padding: 0;
+        padding-top: 7rem;
         
     }
 
