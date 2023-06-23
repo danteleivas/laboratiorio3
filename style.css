@@ -1,0 +1,1031 @@
+:root{
+
+    --colorPrincipal: #adcedf;
+    --colorSecundario: #FCCD6E;
+   
+    --fuentePrincipal: 'Ubuntu', sans-serif,
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,222,236,1) 0%, rgba(252,255,225,1) 100%);
+    
+
+}
+
+h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.header-contenedor ul{
+    list-style: none;
+    
+
+}
+
+.header-contenedor{
+    display: flex;
+    
+    justify-content: space-between;
+    height: 8rem;
+    align-items: center;
+    
+}
+.header-contenedor nav a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    
+  
+
+    
+}
+.header-contenedor img{
+    
+    width: 15rem;
+
+}
+.header-contenedor li{
+    justify-content: right;
+    
+    
+}
+.nav-links li{
+    
+    padding: 3rem;
+    
+    display: inline-block;
+    position: relative;
+    
+   
+    
+}
+
+.nav-links li a{
+    display: block;
+    
+    color: #000;
+    text-align: center;
+    font-size: 1.3rem;
+    
+    
+    
+}
+.nav-links a:hover{
+    
+    color: var(--colorPrincipal);
+    
+}
+
+.nav-links li ul.dropdown li{
+    display: block;
+}
+
+.nav-links li ul.dropdown{
+    
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    text-align: center;
+    padding: 0;
+    border-radius: 1rem;
+    border: 1px solid #000;
+    margin-top: 1rem;
+    
+}
+.nav-links li:focus-within ul.dropdown{
+    display: block;
+    
+    
+    
+    
+}
+
+
+
+
+
+.primerDiv{
+ 
+    height: 55rem;
+    background-image: url(./img/background\ michael.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+
+}
+.primerDiv p span{
+    font-weight: bold;;
+}
+.primerDiv--texto{
+   padding: 6rem 2rem 2rem 3rem;
+   width: 50%;
+
+}
+
+.primerDiv h1{
+    font-size: 2.9rem;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+    
+}
+.primerDiv p{
+    font-size: 1.3rem;
+}
+
+.segundoDiv--contenedor{
+    display: flex;
+    
+}
+
+.segundoDiv--contenedor{
+    display: flex;
+    padding: 2rem;
+    column-gap: 2rem;
+}
+
+.segundoDiv--texto{
+    width: 30%;
+    
+    padding: 4rem;
+    
+
+}
+.segundoDiv--texto h2{
+    
+    line-height: 1.2rem;
+    font-size: 2rem;
+    
+ }
+ .segundoDiv--texto a{
+    
+    
+    font-size: 1.5rem;
+    padding: .8rem 2.2rem .8rem 2.2rem;
+    text-decoration: none;
+    background-color: var(--colorPrincipal);
+    border: 1px solid #000;
+    border-radius: 2rem;
+    color: #000;
+    
+ }
+ .segundoDiv--texto a:hover{
+    
+
+    color: #fff
+    
+ }
+
+.segundoDiv--texto p{
+   margin-top: 4rem;
+   line-height: 1.2rem;
+   font-size: 1.1rem;
+   margin-bottom: 10rem;
+}
+
+.segundoDiv--contenedor img{
+    margin-top: 4rem;
+    width: 60%;
+    transform: rotate(5deg);
+    border: 3px solid #000;
+
+    
+}
+
+
+.primerDivisor{
+
+    margin-top: 4rem;
+    border: 2px solid #000;
+    background-color: var(--colorPrincipal);
+    padding: 2rem;
+    border-right: none;
+    border-left: none;
+    
+}
+.primerDivisor p{
+    margin: 0rem 10rem 0rem 10rem;
+}
+.primerDivisor p span{
+    font-style: italic;
+}
+
+.tercerDiv--contenedor{
+
+    display: flex; 
+    column-gap: 3rem;
+    
+
+}
+.tercerDiv--texto{
+    width: 40%;
+    padding: 3rem;
+}
+.tercerDiv--texto h2{
+    line-height: 1.2rem;
+    font-size: 2rem;
+}
+.tercerDiv--texto p{
+    margin-top: 4rem;
+    line-height: 1.2rem;
+    font-size: 1.1rem;
+    margin-bottom: 10rem;
+}
+
+.tercerDiv--contenedor img{
+    width: 40%;
+    border: 2px solid #000;
+    border-top: none;
+    border-bottom: none;
+}
+
+.tercerDiv--texto a{
+    
+    
+    font-size: 1.5rem;
+    padding: .8rem 2.2rem .8rem 2.2rem;
+    text-decoration: none;
+    background-color: var(--colorPrincipal);
+    border: 1px solid #000;
+    border-radius: 2rem;
+    color: #000;
+    
+ }
+ .tercerDiv--texto a:hover{
+    
+
+    color: #fff
+    
+ }
+ .segundoDivisor{
+
+    
+    border: 2px solid #000;
+    background-color: var(--colorPrincipal);
+    padding: 2rem;
+    border-right: none;
+    border-left: none;
+    
+}
+.segundoDivisor p{
+    margin: 0rem 10rem 0rem 10rem;
+}
+.segundoDivisor p span{
+    font-style: italic;
+}
+
+.footer--contenedor{
+    min-height: 20rem;
+}
+.svg--contenedor{
+    
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    
+    
+    
+
+    
+}
+
+.svg--contenedor svg{
+    width: 3%;
+    height: 3%;
+    margin-top: 15rem;
+    
+    
+    
+}
+
+.footer--links a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    
+}
+
+
+.footer--links li{
+    list-style: none;
+    padding: 2rem;
+    justify-content: right;
+    
+   
+    
+}
+.footer--links{
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    margin-top: 4rem;
+    
+    
+    
+}
+.footer--links a{
+    gap: 1rem;
+    color: #746e6a;
+    
+    
+    
+}
+
+.footer--contenedor p{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    padding-top: 0rem;
+    color: #746e6a;
+    font-size: 1.2rem;
+
+    
+    
+}
+
+/* GALERIA */
+
+
+.galeria--contenedor{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+
+}
+
+.galeria--contenedor img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 10px solid #fff;
+    
+    
+    
+}
+
+
+
+
+.galeria h1{
+
+    font-size: 4rem;
+    text-align: center;
+}
+.galeria p{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+}
+
+.galeria{
+    margin-top: 0;
+    padding: 5rem;
+    margin: 5rem;
+    margin-top: 0;
+    padding-top: 0;
+    border: 1px solid #000;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(211,218,200,1) 0%, rgba(229,231,166,1) 100%);
+    border-radius: 4rem;
+    
+}
+
+.contacto h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.contacto p{
+    
+    text-align: center;
+    padding: 0 20rem 0 20rem;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+.formulario{
+
+    background-color: var(--gris);
+    width:min(60rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+
+
+}
+.formulario fieldset{
+    
+    border: 1px solid #746e6a;
+    padding: 5rem;
+    border-radius: 2rem;
+}
+.formulario legend{
+    
+    margin-bottom: 2rem;
+    
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    
+
+
+
+}
+.campo{
+
+    margin-bottom: 1rem;
+}
+.campo label{
+    margin-bottom: .5rem;
+    
+    font-weight: bold;
+
+    
+}
+.input-text{
+    
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 100%;
+    border: none;
+}
+
+.campo textarea{
+
+    height: 20rem;
+}
+
+.boton{
+
+    font-size: 2rem;
+    background-color: #4153F9;
+    color: #fff;
+    margin-top: 2rem;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    width: auto;
+    
+    border:none;
+    text-align: center;
+     
+
+}
+
+.boton:hover{
+    cursor: pointer;
+}
+
+svg:hover{
+    cursor: pointer;
+}
+
+
+
+/* DATOS TECNICOS */ 
+
+.datos-tecnicos__contenedor{
+    margin: 0;
+    background-image: url(./img/datos-tecnicos__bg.png);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    height: 70rem;
+    text-align:left;
+    
+    
+}
+
+
+.datos-tecnicos__contenedor h3{
+    color: #fff;
+    padding: 1rem;
+    
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+}
+.datos-tecnicos__contenedor div p{
+    
+    padding: 1rem;
+    margin: 1rem;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.datos-tecnicos__contenedor p{
+
+    color: #fff;
+}
+.datos-tecnicos__contenedor span{
+    color: var(--colorPrincipal);
+
+}
+
+.datos-tecnicos__contenedor h1{
+    color: #fff;
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    
+}
+
+.opacity{
+    color: #000;
+    height: 60rem;
+
+}
+
+
+
+/* ARGUMENTO */
+
+.argumento--main{
+    background-image: url(./img/1.jpg);
+    text-align: center;
+    padding: 6rem;
+    background-size:auto;
+    height: 40rem;
+    
+    
+
+}
+
+
+.argumento--main h1{
+    font-size: 3.2rem;
+    margin-bottom: 8rem;
+    
+
+}
+
+.argumento--main p{
+    color: #dbdbdb;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 0 #000000, -1px -1px 0 #000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+    
+    
+    
+
+}
+
+
+/* PERSONAJES PRINCIPALES */ 
+
+.principales--main h1{
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    
+
+}
+.principales--main p{
+    font-size: 1.3rem;
+    padding: 3rem;
+}
+
+.principales--main{
+    text-align: center;
+    
+}
+.personajePrincipal {
+    display: flex;
+    margin: 2rem;
+    align-items: center;
+    
+    
+    
+    
+    
+
+}
+.personajePrincipal h2{
+    font-size: 2rem;
+    color: var(--colorPrincipal);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.personajePrincipal img {
+    width: 25%;
+    flex: 1;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 20rem;
+    
+    
+}
+
+
+/* CRITICAS */ 
+
+
+.criticas--contenedor h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.critica{
+    text-align: center;
+
+    background-color: var(--colorPrincipal);
+    padding: 2.2rem;
+
+    margin: 3rem;
+    border-radius: 2rem;
+    border: 1px solid #000;
+}
+
+.critica p{
+    font-size: 1.1rem;
+}
+
+.critica span{
+    font-style: italic;
+    
+    
+}
+
+.critica a{
+    text-decoration: none;
+   
+    
+    
+}
+.notas h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.nota{
+    background-color: var(--colorSecundario);
+}
+
+
+
+
+.checkbtn{
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    display: none;
+    
+}
+#check{
+    display: none;
+}
+
+@media (max-width: 768px){
+
+    
+
+    .checkbtn{
+
+        display: block;
+
+    }
+
+    .nav-links{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        z-index: 10;
+        top:8rem;
+        left:-200% ;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        transition: all .5s;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,222,236,1) 0%, rgba(252,255,225,1) 100%);
+
+        
+
+    }
+
+    .nav-links li {
+        text-transform: uppercase;
+        display: block;
+        padding: 2rem 3rem;
+        line-height: 30px;
+        
+
+
+    }
+
+    .nav-links li a{
+        font-size: 20px;
+    }
+
+    .nav-links li a:hover, li a.active{
+        background: none;
+        
+    }
+
+    #check:checked ~ nav .nav-links{
+        left: 0;
+        height: 30rem;
+    }
+
+    .nav-links li:focus-within ul.dropdown{
+        display: block;
+        position: relative;
+        
+        
+        
+        
+    }
+
+    .header-contenedor{
+        width: 100%;
+       
+        position: fixed;
+        z-index: 11;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,222,236,1) 0%, rgba(252,255,225,1) 100%);
+        
+    }
+
+    .primerDiv{
+        background-position:left;
+    }
+    .primerDiv--texto{
+        width: auto;
+        text-align: center;
+        
+    }
+
+    .primerDiv--texto h1{
+        margin-top: 4rem;
+        
+    }
+
+    .segundoDiv--texto{
+        width: auto;
+        padding: 0;
+
+    }
+    .segundoDiv--texto p {
+        margin-top: 4rem;
+        line-height: 1.2rem;
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }
+
+   
+
+    .segundoDiv--contenedor {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .segundoDiv--contenedor img{
+        margin-top: 2rem;
+        width: 100%;
+        transform: rotate(0deg);
+        border: 1px solid #000;
+    
+        
+    }
+
+
+    .primerDivisor{
+        margin: 0;
+        
+    }
+
+    .primerDivisor p{
+
+        margin: 0;
+    }
+
+    .tercerDiv--texto h2 {
+        line-height: 2rem;
+
+    }
+
+
+    .tercerDiv--contenedor{
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column-reverse;
+    }
+
+    .tercerDiv--contenedor img{
+       
+        margin: 2rem auto;
+        width: 80%;
+        border: 1px solid #000;
+
+     }
+
+     .segundoDivisor p {
+        margin: 0;
+        padding: 1rem;
+     }
+
+
+
+     .svg--contenedor svg{
+        width: 10%;
+        height: 10%;
+        margin-top: 10rem;
+        
+    }
+
+    .footer--links{
+        display: block;
+        height: 10%;
+        justify-content: center;
+        margin-top: 2rem;
+        width: 100%;
+
+    }
+
+    .footer--links a{
+        
+        width: 100%;
+        text-transform: uppercase;
+        padding: 0 2rem;
+    
+
+    }
+
+    .footer--contenedor p{
+        border-top: 1px solid #746e6a;
+        justify-content: center;
+        
+        color: #746e6a;
+        font-size: 1.2rem;
+        padding: 1rem;
+    
+        
+        
+    }
+
+    .footer--links {
+        
+        padding: 0;
+
+    }
+
+    .footer--links li{
+        
+        text-align: center;
+        
+
+    }
+
+    .datos-tecnicos__contenedor h1{
+
+        padding-top: 9rem;
+        font-size: 2rem;
+        
+    }
+
+    .datos-tecnicos__contenedor {
+        height: 80rem;
+    }
+
+    .argumento--main{
+        padding: 6rem 2rem;
+        height: 65rem;
+    }
+    .argumento--main h1{
+        padding-top: 2rem;
+        font-size: 2rem;
+    }
+
+    .argumento--main p {
+        color: #dbdbdb;
+        margin-top: 2rem;
+        line-height: 1.5rem;
+        font-size: 1.1rem;
+        text-shadow: 1px 1px 0 #000000, -1px -1px 0 #000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+        
+    }
+
+
+    .principales--main h1 {
+        font-size: 2rem;
+        
+        padding-top: 9rem;
+        margin: 0;
+        
+    }
+
+    .personajePrincipal{
+        flex-direction: column;
+    }
+    .personajePrincipal img {
+        width: 90%;
+        flex: 1;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+        border-radius: 20rem;
+        order: 2;
+
+    }
+
+    .principales--main p {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+
+    .critica {
+        
+        padding: 1rem;
+        margin: 1rem;
+        
+        
+    }
+
+    .criticas--contenedor h1 {
+        
+        margin: 0;
+        padding-top: 9rem;
+    }
+
+
+    .galeria--contenedor img {
+        width: 95%;
+        height: 90%;
+        object-fit: cover;
+        border: 3px solid #fff;
+    }
+
+    .galeria {
+        margin-top: 0;
+        padding: 0;
+        margin: 0;
+        padding-top: 9rem;
+        border: none;
+        border-radius: 0;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(211,218,200,1) 0%, rgba(229,231,166,1) 100%);
+       
+
+}
+
+    .galeria h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .galeria--contenedor {
+        width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+    .contacto h1 {
+        font-size: 3rem;
+       
+        margin: 0;
+        padding: 0;
+        padding-top: 8rem;
+    }
+
+    .contacto p {
+        
+        padding: 1rem;
+        
+        font-size: 1rem;
+    }
+
+    .formulario {
+        background-color: var(--gris);
+        width: min(60rem, 100%);
+        margin: 0;
+        padding: 0;
+        border-radius: 1rem;
+    }
+
+    .formulario fieldset {
+        border: 1px solid #746e6a;
+        padding: 2rem;
+        border-radius: 2rem;
+        margin: 1rem;
+    }
+
+    .input-text {
+        padding: 1rem;
+        border-radius: 0.5rem;
+        width: 90%;
+        border: none;
+    }
+}
