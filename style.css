@@ -63,7 +63,7 @@ h1{
 
 .nav-links li a{
     display: block;
-    
+    text-transform: uppercase;
     color: #000;
     text-align: center;
     font-size: 1.3rem;
@@ -566,6 +566,7 @@ svg:hover{
 
 
 .argumento--main h1{
+    text-align: center;
     font-size: 3.2rem;
     margin-bottom: 8rem;
     
@@ -599,12 +600,12 @@ svg:hover{
     font-size: 1.3rem;
     padding: 3rem;
     
+    
+}
+.parrafoMain{
+    text-align: center;
 }
 
-.principales--main {
-    
-    
-}
 
 .principales--main h2{
     text-align: center;
@@ -614,13 +615,11 @@ svg:hover{
     display: flex;
     margin: 2rem;
     align-items: center;
-    
-    
-    
-    
-    
+ 
 
 }
+
+
 .personajePrincipal h2{
     font-size: 2rem;
     color: var(--colorPrincipal);
@@ -1040,7 +1039,9 @@ svg:hover{
         border: none;
     }
 
-
+    .parrafoMain{
+        text-align:left;
+    }
 
 
 }
